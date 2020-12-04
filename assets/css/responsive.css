@@ -1,0 +1,117 @@
+@media all and (min-width: 768px){
+	.header-menu ul{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+}
+
+
+
+@media all and (max-width: 767px){
+
+	.header-logo{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	.header-menu ul {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin-top: 2rem;
+		-webkit-box-align: first baseline;
+		    -ms-flex-align: first baseline;
+		            -ms-grid-row-align: first baseline;
+		        align-items: first baseline;
+		display: none;
+	}
+	.header-menu ul li a {
+		padding: 0 0 1rem 0;
+	}
+	.nav-icon{
+		display: block;
+	}
+	.nav-icon:hover{
+		color:#9672FB;
+	}
+	.section-padding {
+		padding: 2rem 0;
+	}
+	.banner-left {
+		padding: 2rem 0;
+	}
+	.hero-banner {
+		padding-left: 4rem;
+	}
+	.photos-banner {
+		padding: 0 0 0 5rem;
+	}
+	.craft-left {
+		padding: 2rem 0;
+	}
+	.craft-left p {
+		padding: 1rem 0;
+	}
+	.craft-area h2 {
+		padding-bottom: 1rem;
+	}
+	.play-content {
+		padding: 15rem 0;
+	}
+	.craft-area {
+		padding-top: 2rem;
+	}
+	.footer-icon {
+		padding-top: 1rem;
+	}
+	.footer-logo {
+		padding-bottom: 2rem;
+	}
+}
+
+@media all and (max-width: 576px){
+	.banner-left h2 {
+		font-size: 4rem;
+	}
+	.work-title p {
+		width: 100%;
+	}
+	.hero-title h2 {
+		font-size: 4rem;
+	}
+	.hero-title p {
+		width: 100%;
+		padding-bottom: 2rem;
+	}
+	.play-content {
+		padding: 10rem 0;
+	}
+	.app-title h2 {
+		font-size: 3rem;
+		padding-bottom: 2rem;
+	}
+	.logo ul {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.footer-icon ul {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.craft-area {
+		text-align: center;
+	}
+	.craft-area ul li a {
+		padding-bottom: .3rem;
+	}
+}
